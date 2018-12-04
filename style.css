@@ -1,0 +1,109 @@
+html body {
+margin: 0;
+padding: 0px;
+font-family: arial, sans-serif;
+font-size: 13px;
+}
+
+#header {
+position: absolute;
+right: 15px;
+top: 0px;
+width: 50vw;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-top: 15px;
+}
+
+#logo {
+margin-bottom: 25px;
+}
+
+#main {
+position: absolute;
+top: 30vh;
+width: 100vw;
+text-align: center;
+}
+
+#search-bar {
+display: block;
+margin: auto;
+width: 40%;
+padding: 15px;
+border-radius: 3px;
+border-color: #DDDDDD;
+border-style: solid;
+border-width: 1px;
+}
+
+#google-products, #alert, #user {
+width: 35px;
+height: 35px;
+display: flex;
+margin-left: 5px;
+margin-right: 5px;
+color: #ffffff;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+font-size: 24px;
+}
+
+#alert, #user {
+border-radius: 50px;
+background-color: #55aa99;
+}
+
+#google-products, #alert {
+background-color: #777777;
+height: 25px;
+width: 25px;
+}
+
+#search-button, #lucky-button{
+padding: 5px;
+border-width: 0px;
+border-radius: 3px;
+padding: 10px 15px 10px 15px;
+margin: 20px;
+background-color: #f1f1f1;
+color: #777777;
+font-weight: bold;
+}
+
+a {
+font-family: arial, sans-serif;
+font-size: 13px;
+text-align: right;
+text-decoration: none;
+color: #000000;
+display: inline-block;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#footer {
+position: absolute;
+bottom: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #EEEEEE;
+color: #777777;
+width: 100%;
+height: 50px;
+}
+
+#footer a {
+color: #777777;
+}
+.column {
+display: flex;
+}
+
+.footer-menu {
+margin-right: 10px;
+margin-left: 20px;
+}
